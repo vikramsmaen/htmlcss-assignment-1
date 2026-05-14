@@ -8,7 +8,6 @@
     src: url(/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
 
-
 @font-face {
     font-family: poppins;
     src: url(/fonts/Poppins/Poppins-ExtraLight.ttf);
@@ -73,16 +72,29 @@
 html,body{
     width: 100%;
     height: 100%;
-    font-family: poppins;
-    font-weight: 300;
-    background-color: #f9f5f2;
+   
 }
 
 /* -------------------------- */
 
+
+body{
+
+    font-family: poppins;
+    font-weight: 300;
+    background-color: #f9f5f2;
+    background-image: url(/images/background.png);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+    
+}
+
 #page{
     width: 75vw;
-    height: 150vh;
+    height: 110vh;
     margin: auto;
     
 }
@@ -150,6 +162,7 @@ html,body{
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
+    color: #1e5631;
 }
 
 #collection-tag i {
@@ -162,11 +175,12 @@ html,body{
     font-weight: 300;
     line-height: 0.9;
     margin-left: 10px;
+    color: #1e5631;
 }
 
 
 #divider-line{
-    background-color: black;
+    background-color: #1e5631;
     height: 3px;
     width: 70px;
     margin-top: 20px;
@@ -323,7 +337,7 @@ html,body{
     top: 10px;
     left: 20px;
     background-color: white;
-    color: black;
+    color: #1e5631;
     border-radius: 50px;
     padding: 12px 20px;
     font-size: 18px;
@@ -336,7 +350,7 @@ html,body{
     right: 20px;
     background-color: white;
     border-radius: 50px;
-    color: black;
+    color: #1e5631;
     padding: 12px 20px;
     font-size: 14px;
     font-weight: 600;
@@ -460,7 +474,7 @@ html,body{
 
 #feature-card i{
     font-size: 40px;
-    color: #1e5631;
+    color: #5c654d;
     font-weight: 100;
     
 }
@@ -468,7 +482,7 @@ html,body{
 #feature-card span{
     font-size: 14px;
     font-weight: 500;
-    color: #1e5631;
+    color: #5c654d;
 }
 
 #feature-divider{
